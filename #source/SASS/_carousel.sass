@@ -1,0 +1,49 @@
+.carousel
+	&__inner
+		position: relative
+	.slick-prev
+		position: absolute
+		top: 50%
+		transform: translateY(-50%)
+		left: 70px
+		border: none
+		background: none
+		z-index: 10
+		&:hover
+			cursor: pointer
+			background: url(../img/icons/icon_arrow_left_hover.png)
+		img
+			width: 16px
+			height: 28px
+	.slick-next
+		position: absolute
+		top: 50%
+		transform: translateY(-50%)
+		right: 70px
+		border: none
+		background: none
+		&:hover
+			cursor: pointer
+			background: url(../img/icons/icon_arrow_right_hover.png)
+		img
+			width: 16px
+			height: 28px
+	.slick-dots
+		display: flex
+		align-items: center
+		justify-content: center
+	.slick-dots li
+		list-style: none
+		margin: 0 8px
+	.slick-dots li button
+		font-size: 0
+		width: 44px
+		height: 6px
+		background-color: #283036
+		border-radius: 4px
+	.slick-dots li.slick-active button
+		background-color: #FF6E30
+		height: 8px
+
+
+

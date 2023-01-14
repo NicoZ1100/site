@@ -1,0 +1,35 @@
+.newcomer
+	padding-top: 220px
+	.newcomer__flex
+		display: flex
+		justify-content: start
+		.section-up
+			max-width: 427px
+			margin-right: 197px
+			.section-up__title
+				@include section-up__title
+			.section-up__title_left
+				text-align: left
+			.section-up__subtitle
+				@include section-up__subtitle
+				padding-bottom: 85px
+			.section-up__subtitle_left
+				text-align: left
+			.newcomer__btn
+				@include btn
+				padding: 16px 40px
+		.tool-flex_newcomer
+			display: flex
+			flex-direction: column
+			.tool-block-descr_size
+				font-size: 14px
+		.tool-flex
+			&__block
+				.tool-block-footer
+					&__like
+						margin-right: 75px
+		.tool-flex__block_newcomer
+			max-width: 288px
+			padding-bottom: 50px
+			&:hover
+				background: url(../img/bg/bg_small-active.png) center center/cover

@@ -1,0 +1,46 @@
+.header 
+	.container
+		padding: 0
+		.header__flex
+			display: flex
+			justify-content: space-between
+			align-items: center
+			.main-logo
+				width: 142px
+				.main-logo__img
+					width: 100%
+			.header__menu
+				.menu
+					.menu__item
+						display: inline-block
+						margin-right: 12px
+						&:last-child
+							margin-right: 0
+						.menu__item-link
+							padding: 4px 10px 4px 10px
+							text-decoration: none
+							color: $sub_color
+							border-radius: 7px
+							cursor: pointer
+							&:hover
+								color: #fff
+								background-color: #FF6E30
+			.header__login
+				&-link
+					position: relative
+					margin-right: 41px
+					font-family: $main_family
+					font-weight: 600
+					font-size: 16px
+					color: rgba(255, 255, 255, 0.78)
+					&:hover::before
+						content: ""
+						position: absolute
+						bottom: -3px
+						width: 100%
+						height: 2px
+						background-color: #FF6E30
+					&:active
+						color: $btn_color
+				&-sing-up-link
+					@include btn

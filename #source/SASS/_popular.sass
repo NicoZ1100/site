@@ -1,0 +1,66 @@
+.popular
+	padding: 100px 0 90px 0
+	.section-up
+		text-align: center
+		&__title
+			@include section-up__title
+		&__subtitle
+			@include section-up__subtitle
+.tool-flex
+	display: flex
+	justify-content: space-between
+	padding-bottom: 70px
+	&__block
+		display: flex
+		flex-direction: column
+		padding: 30px
+		width: 392px
+		border-radius: 15px
+		&:hover
+			background: url(../img/bg/bg_big-active.png) center center/cover
+		.tool-block-header
+			display: flex
+			justify-content: start
+			&__logo
+				margin-right: 30px
+				max-width: 65px
+			&__img
+				width: 100%
+			&__name
+				.tool-title
+					font-family: $main_family
+					font-weight: 500
+					font-size: 24px
+					color: $main_color
+				.tool-subtitle
+					font-family: $main_family
+					font-weight: 400
+					font-size: 18px
+					line-height: 27px
+					color: rgba(255, 165, 55, 0.55)
+		.tool-block-descr
+			padding: 30px 0 30px 0 
+			font-family: $main_family
+			font-weight: 400
+			font-size: 16px
+			line-height: 30px
+			color: $sub_color
+		.tool-block-footer
+			display: flex
+			justify-content: start
+			align-items: center
+			&__like
+				display: flex
+				align-items: center
+				margin-right: 180px
+				img.tool-block-footer__heard
+					max-width: 28px
+					margin-right: 19px
+			.tool-block-footer__visit
+				a.tool-block-footer__link
+					font-family: $main_family
+					font-weight: 600
+					font-size: 16px
+					color: $sub_color
+.popular .container .tool-flex_p0
+	padding-bottom: 0

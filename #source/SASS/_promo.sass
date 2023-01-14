@@ -1,0 +1,59 @@
+.promo
+	.container
+		.promo__flex
+			display: flex
+			justify-content: space-between
+			.promo__info
+				.promo__title
+					padding: 104px 0 30px 0
+					font-family: $main_family
+					font-weight: 500
+					font-size: 50px
+					color: $main_color
+					span
+						font-size: 50px
+						line-height: 140%
+						color: #FF6E30
+				.promo__descr
+					padding: 0
+					font-family: $main_family
+					font-weight: 400
+					font-size: 18px
+					line-height: 30px
+					color: $sub_color
+				.promo-form
+					position: relative
+					padding-top: 60px
+					&__input
+						max-width: 499px
+						padding: 21px 253px 22px 55px
+						font-family: $main_family
+						font-style: normal
+						font-weight: 400
+						font-size: 14px
+						background: #283036
+						border-radius: 15px
+						color: #fff
+					::placeholder
+						font-family: $main_family
+						font-weight: 400
+						font-size: 14px
+						color: rgba(255, 255, 255, 0.38)
+					&__icon-search
+						position: absolute
+						top: 79px
+						left: 18px
+					&__search-btn
+						@include btn
+						position: absolute
+						top: 72px
+						right: 66px
+				.promo__social
+					padding: 127px 0 0 23px
+					&-link
+						padding-right: 45px
+			.promo__img-wrapp
+				max-width: 590px
+				padding-top: 43px
+			.promo__img
+				width: 100%
