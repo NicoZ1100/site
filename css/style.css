@@ -81,6 +81,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+.d-none {
+  display: none;
+}
+
 .header .container {
   padding: 0;
 }
@@ -518,7 +522,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-50%);
   left: 70px;
   border: none;
-  background: url(../img/icons/icon_arrow_left.png);
+  background: url(../img/icons/icon_arrow_left.png) center center/cover;
   z-index: 10;
 }
 .carousel__inner .slick-prev:hover {
@@ -946,7 +950,19 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 30px;
   }
   .newcomer .newcomer__flex .tool-flex .tool-flex__block_newcomer {
-    max-width: 220px;
+    max-width: 185px;
+  }
+  .newcomer .newcomer__flex .tool-flex .tool-flex__block_newcomer .tool-block-descr_size {
+    font-size: 11px;
+  }
+  .newcomer .newcomer__flex .tool-flex .tool-flex__block .tool-block-header .tool-block-header__logo {
+    max-width: 45px;
+  }
+  .newcomer .newcomer__flex .tool-flex .tool-flex__block .tool-block-header .tool-block-header__name .tool-title {
+    font-size: 14px;
+  }
+  .newcomer .newcomer__flex .tool-flex .tool-flex__block .tool-block-footer__like {
+    margin-right: 45px;
   }
   .testimonial .container .testimonial__wrapp .testimonial__foto {
     max-width: 250px;
@@ -989,7 +1005,119 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 576px) {
   .container {
-    width: 100%;
+    max-width: 300px;
     padding: 0 10px;
+  }
+  .header .container .header__flex .hamburger {
+    left: 250px;
+    top: 50px;
+  }
+  .header .container .header__flex .header__menu ul.menu li.menu__item {
+    margin-bottom: 35px;
+  }
+  .header .container .header__flex .header__menu ul.menu li.menu__item a.menu__item-link {
+    font-size: 14px;
+  }
+  .header .container .header__flex .main-logo {
+    max-width: 75px;
+  }
+  .header .container .header__flex .header__login-sing-up-link {
+    font-size: 12px;
+    padding: 5px 14px;
+  }
+  .promo .container .promo__flex .promo__info .promo__title {
+    font-size: 24px;
+    padding: 85px 0 7px 0;
+  }
+  .promo .container .promo__flex .promo__info .promo__descr {
+    font-size: 11px;
+  }
+  .promo .container .promo__flex .promo__info .promo-form {
+    margin-top: 30px;
+    padding-top: 0px;
+  }
+  .promo .container .promo__flex .promo__info .promo-form .promo-form__input {
+    max-width: 283px;
+  }
+  .promo .container .promo__flex .promo__info .promo-form .promo-form__icon-search {
+    top: 12px;
+  }
+  .promo .container .promo__flex .promo__info .promo-form a.promo-form__search-btn {
+    top: 8px;
+  }
+  .promo .container .promo__flex .promo__info .promo__social {
+    padding: 40px 0 0 55px;
+  }
+  .promo .container .promo__flex .promo__img-wrapp {
+    display: none;
+  }
+  .popular {
+    padding-bottom: 40px;
+  }
+  .popular .container .section-up__title {
+    font-size: 32px;
+  }
+  .popular .container .section-up__subtitle {
+    font-size: 12px;
+  }
+  .popular .container .tool-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .popular .container .tool-flex .tool-flex__block {
+    max-width: 191px;
+    margin-bottom: 50px;
+  }
+  .popular .container .tool-flex .tool-flex__block:last-child {
+    margin-bottom: 0;
+  }
+  .more {
+    padding-bottom: 70px;
+  }
+  .brand .container .brand__wrapp {
+    max-height: 65px;
+  }
+  .brand .container .brand__wrapp .brand__title {
+    font-size: 9px;
+  }
+  .newcomer .container .newcomer__flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .newcomer .container .newcomer__flex .section-up {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+  .newcomer .container .newcomer__flex .tool-flex .tool-flex__block .tool-block-descr {
+    padding: 10px 0 20px 0;
+  }
+  .testimonial {
+    display: none;
+  }
+  .join {
+    padding-top: 0;
+    padding-bottom: 70px;
+  }
+  .join .container .join__wrapp .section-up .section-up__title {
+    font-size: 23px;
+  }
+  .join .container .join__wrapp .section-up .section-up__subtitle {
+    font-size: 10px;
+    padding-bottom: 25px;
+  }
+  .join .container .join-form .join-form__input {
+    padding: 10px 0px 10px 12px;
+  }
+  .join .container .join-form .join-form__search-btn {
+    font-size: 13px;
+    top: 9px;
+    right: 12px;
+    padding: 5px 14px;
+  }
+  .footer {
+    padding-top: 60px;
+  }
+  .footer .container .footer__flex {
+    flex-direction: column;
   }
 }
