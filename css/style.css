@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   position: absolute;
   top: 72px;
-  right: 66px;
+  right: 80px;
 }
 .promo .container .promo__flex .promo__info .promo-form__search-btn:hover {
   background-color: #C9380C;
@@ -876,7 +876,7 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
   }
   .header .container .header__flex .header__menu ul.menu li.menu__item a.menu__item-link {
-    font-size: 20px;
+    font-size: 14px;
   }
   .header .container .header__flex .hamburger {
     display: block;
