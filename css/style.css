@@ -539,7 +539,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-50%);
   right: 70px;
   border: none;
-  background: none;
+  background: url(../img/icons/icon_arrow_right.png) center center/cover;
 }
 .carousel__inner .slick-next:hover {
   cursor: pointer;
@@ -857,7 +857,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     top: 0;
     left: -100%;
-    width: 56%;
+    width: 30%;
     height: 100hv;
     padding: 20px 15px;
     border-radius: 25px;
@@ -1011,6 +1011,9 @@ h1, h2, h3, h4, h5, h6 {
   .header .container .header__flex .hamburger {
     left: 250px;
     top: 50px;
+  }
+  .header .container .header__flex .header__menu ul.menu {
+    width: 56%;
   }
   .header .container .header__flex .header__menu ul.menu li.menu__item {
     margin-bottom: 35px;
