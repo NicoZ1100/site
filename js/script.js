@@ -25,7 +25,7 @@ $(document).ready(function(){
     dots: true,
     speed: 1200,
     adaptiveHeight: true,
-    prevArrow: '<button type="button" class="slick-prev"><img src="../img/icons/icon_arrow_left.png" alt="arrow_left"></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="../img/icons/icon_arrow_right.png" alt="arrow_right"></button>'
+    prevArrow: '<button type="button" class="slick-prev"><img src="img/icons/icon_arrow_left.png" alt="arrow_left"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="img/icons/icon_arrow_right.png" alt="arrow_right"></button>'
   });
 });
